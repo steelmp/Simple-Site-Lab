@@ -1,0 +1,53 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+nav {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+li {
+    display: inline-flex;
+    border-right: 1px solid #bbb;
+    padding-right:3px;
+
+}
+a {
+    color:#00CB4A;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-decoration: overline;
+}
+li:last-child {
+    border-right: none;
+}
+
+html {
+    background-color: #78CEE9;
+    color: white;
+    border: solid #00CB4A 5px;
+    margin: 20px;
+}
+img {
+    display: flex;
+    max-width: 25%;
+    height:auto;
+    float: right;
+    clear:both;
+    padding: 0 30px;
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}
